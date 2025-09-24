@@ -14,3 +14,6 @@ It includes the official [`turtlebot3_simulations`](https://github.com/ROBOTIS-G
 git clone https://github.com/wintunlatt/turtlebot3_gazebo_nav2_waffle.git
 cd turtlebot3_gazebo_nav2_waffle
 git submodule update --init --recursive
+
+“If robot doesn’t appear in Gazebo, check $TURTLEBOT3_MODEL.”
+“If packages are missing, run rosdep install --from-paths src --ignore-src -r -y.”
